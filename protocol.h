@@ -32,7 +32,7 @@ struct Field
     //StartLine: * Līnija, kas raksturo mašīnu sacīkstes sākuma līniju *
     // ExtraLines: * Saraksts ar līnijām (sienām), kurās var ietriekties  *
 };
-struct Lines{
+struct Line{
     struct Coordinates beggining;
     struct Coordinates end;
 }
