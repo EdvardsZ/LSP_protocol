@@ -33,7 +33,7 @@ struct Line{
     struct Coordinates beggining;
     struct Coordinates end;
 };
-struct Action{
+struct Action{ // domāts kā arrow key inputs
     int x; //(1, pa labi -1 pa kreisi, 0 bez virziena)
     int y; //( 1 uz priekšu, -1 atpakaļ 0 bez virziena)
 };
