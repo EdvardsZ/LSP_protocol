@@ -8,8 +8,8 @@ struct Coordinates
 };
 struct Game
 {
-    int status;
-    char name[20];
+    int status; //(0- WAITING_PLAYERS, 1- STARTED, -1- ENDED);
+    char name[20];//* Uzvarētāja spēlētāja ID, vai -1, ja tāda vēl nav * 
     int WinnerPlayerID;
 };
 struct Player_info
