@@ -28,9 +28,6 @@ struct Field
     char name[20]; //* Laukuma nosaukums *
     int Width; //* Skaitlis, kas raksturo laukuma platumu  *
     int Height; //* Skaitlis, kas raksturo laukuma augstumu  *
-    // MainLine: * Līnija, kas raksturo galveno sienu *
-    //StartLine: * Līnija, kas raksturo mašīnu sacīkstes sākuma līniju *
-    // ExtraLines: * Saraksts ar līnijām (sienām), kurās var ietriekties  *
 };
 struct Line{
     struct Coordinates beggining;
